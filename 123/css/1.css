@@ -1,0 +1,27 @@
+hr {
+    color: black;
+    border: solid 5px;
+}
+h1 {
+    text-align: center;
+    margin: auto;
+    text-decoration: none;
+}
+
+.hi {
+    display: flex;
+    align-items: flex-start; /* 수직 정렬을 위쪽으로 맞춤 */
+    padding: 10px;
+}
+
+.hi img {
+    margin-right: 20px; /* 이미지와 텍스트 사이의 간격 */
+}
+
+.hi p {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0;
+    line-height: 1.6;
+    color: #555;
+}
