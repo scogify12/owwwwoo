@@ -1,0 +1,31 @@
+hr {
+    color: black;
+    border: solid 5px;
+}
+h1 {
+    text-align: center;
+    margin: auto;
+    text-decoration: none;
+}
+ol {
+    margin: -10px 0px 0px -20px;
+    font-size: large;
+    border-right: 1px solid black;
+    width: 60px;
+    text-decoration: underline;
+}
+#A {
+    text-decoration: none;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 100px 1fr;  
+}
+@media (max-width :1000px) {
+    hr{
+        display :none;
+    }
+    ol{
+        border-right: 10px solid red;
+    }
+}
